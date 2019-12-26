@@ -2,8 +2,9 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     id(BuildPlugins.androidApplication)
-    id(BuildPlugins.kotlinAndroid)
-    id(BuildPlugins.kotlinAndroidExtensions)
+    kotlin(BuildPlugins.kotlinAndroid)
+    kotlin(BuildPlugins.kotlinAndroidExtensions)
+    kotlin(BuildPlugins.kotlinKapt)
 }
 
 android {

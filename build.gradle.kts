@@ -18,6 +18,6 @@ allprojects {
     }
 }
 
-tasks.register("clean").configure {
-    delete("build")
+tasks.register("clean", Delete::class) {
+    delete(rootProject.buildDir)
 }
