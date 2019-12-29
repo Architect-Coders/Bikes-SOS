@@ -1,4 +1,4 @@
-package com.damazo.mountainbikes
+package com.damazo.bikes
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

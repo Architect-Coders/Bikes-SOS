@@ -1,4 +1,4 @@
-package com.damazo.mountainbikes
+package com.damazo.bikes
 
 import org.junit.Test
 

@@ -8,7 +8,7 @@ android {
     compileSdkVersion(AndroidSdk.compileSdk)
     buildToolsVersion(AndroidSdk.buildToolsVersion)
     defaultConfig {
-        applicationId = "com.damazo.mountainbikes"
+        applicationId = "com.damazo.bikes"
         minSdkVersion(AndroidSdk.minSdk)
         targetSdkVersion(AndroidSdk.target)
         versionCode = 1
