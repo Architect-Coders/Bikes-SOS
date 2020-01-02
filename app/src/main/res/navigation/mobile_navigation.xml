@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_stolen">
+
+    <fragment
+        android:id="@+id/nav_stolen"
+        android:name="com.damazo.bikes.ui.stolen.StolenFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_stolen" />
+
+    <fragment
+        android:id="@+id/nav_confiscated"
+        android:name="com.damazo.bikes.ui.confiscated.ConfiscatedFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_confiscated" />
+
+    <fragment
+        android:id="@+id/nav_on_sale"
+        android:name="com.damazo.bikes.ui.onsale.OnSaleFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_on_sale" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.damazo.bikes.ui.profile.ProfileFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.damazo.bikes.ui.about.AboutFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_about" />
+</navigation>
