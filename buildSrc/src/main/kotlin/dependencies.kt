@@ -30,6 +30,7 @@ object Libraries {
         const val androidX = "2.1.0"
         const val legacySupport = "1.0.0"
         const val materialDesign = "1.0.0"
+        const val glide = "4.11.0"
     }
 
     const val kotlinStdLib = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion"
@@ -47,6 +48,8 @@ object Libraries {
     const val navigationUiKtx = "androidx.navigation:navigation-ui-ktx:${Versions.androidX}"
 
     const val lifecycleExtensions = "androidx.lifecycle:lifecycle-extensions:${Versions.androidX}"
+    const val glide = "com.github.bumptech.glide:glide:${Versions.glide}"
+    const val glideCompiler = "com.github.bumptech.glide:compiler:${Versions.glide}"
 }
 
 object TestLibraries {

@@ -30,6 +30,11 @@ android {
         }
     }
 
+    dataBinding{
+        isEnabled = true
+    }
+
+
     buildTypes {
         getByName("release") {
             isMinifyEnabled = false
@@ -55,6 +60,9 @@ dependencies {
     implementation(Libraries.navigationUi)
     implementation(Libraries.navigationUiKtx)
     implementation(Libraries.lifecycleExtensions)
+    implementation(Libraries.glide)
+
+    annotationProcessor(Libraries.glideCompiler)
 
     testImplementation(TestLibraries.junit4)
     androidTestImplementation(TestLibraries.extJunit)
